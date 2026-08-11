@@ -7230,7 +7230,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 167.64 154.94 180)
+		(at 194.31 144.78 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7240,7 +7241,7 @@
 		(dnp no)
 		(uuid "369a69f2-b51f-49c0-8fab-e5cb75782017")
 		(property "Reference" "J8"
-			(at 171.704 154.432 0)
+			(at 190.246 144.272 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7250,7 +7251,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 171.45 152.146 0)
+			(at 190.5 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7259,8 +7260,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 167.64 154.94 0)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+			(at 194.31 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7271,7 +7272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 154.94 0)
+			(at 194.31 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +7283,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 167.64 154.94 0)
+			(at 194.31 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7545,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 152.4 90)
+		(at 199.39 142.24 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7554,7 +7556,7 @@
 		(dnp no)
 		(uuid "5745b066-17d1-4676-9a01-39008032c762")
 		(property "Reference" "#PWR055"
-			(at 166.37 152.4 0)
+			(at 195.58 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +7567,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 159.512 152.4 90)
+			(at 202.438 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7576,7 +7578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 152.4 0)
+			(at 199.39 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7587,7 +7589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 152.4 0)
+			(at 199.39 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,7 +7600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 152.4 0)
+			(at 199.39 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7782,7 +7784,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 162.56 270)
+		(at 199.39 152.4 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7792,7 +7795,7 @@
 		(dnp no)
 		(uuid "6d50a0e1-787c-4fa6-b056-6379a710ff0c")
 		(property "Reference" "#PWR054"
-			(at 156.21 162.56 0)
+			(at 205.74 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,7 +7806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.512 162.306 90)
+			(at 202.438 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7814,7 +7817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 162.56 0)
+			(at 199.39 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7825,7 +7828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 162.56 0)
+			(at 199.39 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,7 +7839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 162.56 0)
+			(at 199.39 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8719,7 +8722,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 154.94 270)
+		(at 199.39 144.78 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8729,7 +8733,7 @@
 		(dnp no)
 		(uuid "ac8b2929-d52d-452a-b63a-230614c4727b")
 		(property "Reference" "#PWR056"
-			(at 156.21 154.94 0)
+			(at 205.74 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.512 154.686 90)
+			(at 202.438 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8751,7 +8755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 154.94 0)
+			(at 199.39 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 154.94 0)
+			(at 199.39 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +8777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 154.94 0)
+			(at 199.39 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9057,7 +9061,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 167.64 162.56 180)
+		(at 194.31 152.4 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9067,7 +9072,7 @@
 		(dnp no)
 		(uuid "b7983705-c35d-4be9-9f19-d969f949e854")
 		(property "Reference" "J7"
-			(at 171.704 162.052 0)
+			(at 190.246 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9077,7 +9082,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 171.45 159.766 0)
+			(at 190.5 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9086,8 +9091,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 167.64 162.56 0)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+			(at 194.31 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 162.56 0)
+			(at 194.31 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +9114,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 167.64 162.56 0)
+			(at 194.31 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9793,7 +9798,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 160.02 90)
+		(at 199.39 149.86 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9803,7 +9809,7 @@
 		(dnp no)
 		(uuid "e06eb759-7366-4a93-b1d3-e1ded5af9424")
 		(property "Reference" "#PWR050"
-			(at 166.37 160.02 0)
+			(at 195.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9820,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 159.512 160.02 90)
+			(at 202.438 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9825,7 +9831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 160.02 0)
+			(at 199.39 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +9842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 160.02 0)
+			(at 199.39 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9847,7 +9853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 160.02 0)
+			(at 199.39 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
