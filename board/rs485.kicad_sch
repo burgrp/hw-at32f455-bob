@@ -2382,7 +2382,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 173.99 81.28 180)
+		(at 173.99 81.28 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2392,7 +2393,7 @@
 		(dnp no)
 		(uuid "bef318e3-6756-44db-bc1d-23fcad369929")
 		(property "Reference" "J5"
-			(at 175.26 78.7399 0)
+			(at 175.26 83.8201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2403,7 +2404,7 @@
 			)
 		)
 		(property "Value" "RS486"
-			(at 175.26 81.2799 0)
+			(at 175.26 81.2801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
